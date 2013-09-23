@@ -69,6 +69,10 @@ command W w !sudo tee % > /dev/null
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Turn on line numbering:
+set number
+
+
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 
@@ -136,7 +140,7 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme desert
+    colorscheme darkblue
 catch
 endtry
 
