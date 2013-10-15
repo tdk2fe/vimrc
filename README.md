@@ -1,14 +1,3 @@
-# The Ultimate vimrc
-
-Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.
-
-There are two versions:
-
-* **Basic**: If you want something small just copy [basic.vim](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) into your ~/.vimrc and you will have a great basic setup
-* **Awesome**: This includes a ton of useful plugins, color schemes and configurations
-
-I would of course recommend using the awesome version.
-
 
 ## How to install the Basic version?
 The basic version is basically just one file and no plugins. You can check out [basic.vim](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim).
@@ -26,11 +15,6 @@ The awesome version includes a lot of great plugins, configurations and color sc
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 
-## How to install on Windows?
-
-Use [msysgit](http://msysgit.github.com/) to checkout the repository and run the installation instructions above. No special instructions needed ;-)
-
-
 ## How to update to latest version?
 
 Simply just do a git rebase!
@@ -39,19 +23,6 @@ Simply just do a git rebase!
     git pull --rebase
 
 
-## Some screenshots
-
-Colors when editing a Python file:
-![Screenshot 1](http://files1.wedoist.com/e952fdb343b1e617b90d256e474d0370/as/screenshot_1.png)
-
-Opening recently opened files [mru.vim](https://github.com/vim-scripts/mru.vim):
-![Screenshot 2](http://files1.wedoist.com/1967b0e48af40e513d1a464e08196990/as/screenshot_2.png)
-
-[NERD Tree](https://github.com/scrooloose/nerdtree) plugin in a terminal window:
-![Screenshot 3](http://files1.wedoist.com/b1509d7ed9e9f357e8d04797f9fad67b/as/screenshot3.png)
-
-This vimrc even works on Windows!
-![Screenshot 4](http://files1.wedoist.com/4e85163d97b81422240c822c82022f2f/as/screenshot_4.png)
 
 
 ## What plugins are included?
